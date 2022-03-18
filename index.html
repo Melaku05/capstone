@@ -4,9 +4,184 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Capstone</title>
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/eca3ff88d7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/home.css" />
+    <title>Melaku Eshetu Capstone</title>
   </head>
   <body>
-    Capstone
+    <header class="navigation-bar">
+      <nav class="header-nav">
+        <ul class="list header-nav__list">
+          <li class="header-nav__item">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li class="header-nav__item">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li class="header-nav__item"><a href="">English</a></li>
+          <li class="header-nav__item"><a href="">My page</a></li>
+          <li class="header-nav__item"><a href="">Logout</a></li>
+        </ul>
+      </nav>
+      <nav class="nav">
+        <a href="index.html">
+          <svg class="icon brand-icon">
+            <use xlink:href="./images/sprite.svg#remote-work"></use>
+          </svg>
+        </a>
+        <div class="nav__toggler">
+          <span class="toggler-bar first-bar"></span>
+          <span class="toggler-bar second-bar"></span>
+          <span class="toggler-bar third-bar"></span>
+        </div>
+        <ul class="list nav__list">
+          <li class="nav__item"><a href="index.html">Home</a></li>
+          <li class="nav__item"><a href="./about.html">About</a></li>
+          <li class="nav__item"><a href="#">Programs</a></li>
+          <li class="nav__item active-item"><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero-block">
+      <span class="hero__title">"Hello Job seekers Land your Remote Job"</span>
+      <h1 class="hero__heading">
+        Level Up Your Career & Learn To Thrive In The Non-Coding Side Of Tech
+        with our free course.
+      </h1>
+      <p class="hero__description">
+        Our experiential online courses will help you develop the hard and soft
+        skills needed to accelerate your career in tech we believing in the
+        value of openness and sharing.
+      </p>
+      <h2 class="hero__date">2022-09-15(WED) ~ 2022-09-19(SAT)</h2>
+    </section>
+
+    <section class="main-program">
+      <div class="main-program__header">
+        <h2 class="main-program__title">Main Program</h2>
+        <div class="red-line"></div>
+      </div>
+
+      <div class="cards-container">
+        <div class="card card--primar">
+          <span>
+            <svg class="icon icon-primary">
+              <use xlink:href="./images/sprite.svg#conference-education"></use>
+            </svg>
+          </span>
+          <h3 class="sub-progran__name">Lecture</h3>
+          <p class="sub-progran__description">
+            Our experts will help you understand what is required to become an
+            online remote worker.
+          </p>
+        </div>
+        <div class="card card--primar">
+          <span>
+            <svg class="icon icon-primary">
+              <use xlink:href="./images/sprite.svg#training-board"></use>
+            </svg>
+          </span>
+          <h3 class="sub-progran__name">Workshop</h3>
+          <p class="sub-progran__description">
+            This is free workshop is a step by step guide to help land a remote
+            job.
+          </p>
+        </div>
+        <div class="card card--primar">
+          <span>
+            <svg class="icon icon-primary">
+              <use xlink:href="./images/sprite.svg#forum"></use>
+            </svg>
+          </span>
+          <h3 class="sub-progran__name">Forum</h3>
+          <p class="sub-progran__description">
+            Have the time to share your thoughts and opinions with experts for
+            each topic.
+          </p>
+        </div>
+        <div class="card card--primar">
+          <span>
+            <svg class="icon icon-primary">
+              <use xlink:href="./images/sprite.svg#increasing-users"></use>
+            </svg>
+          </span>
+          <h3 class="sub-progran__name">Our clients</h3>
+          <p class="sub-progran__description">
+            Our previous clients are building careers at some of the top
+            companies in tech.
+          </p>
+        </div>
+        <div class="card card--primar">
+          <span>
+            <svg class="icon icon-primary">
+              <use xlink:href="./images/sprite.svg#conference-education"></use>
+            </svg>
+          </span>
+          <h3 class="sub-progran__name">Networing</h3>
+          <p class="sub-progran__description">
+            Make connections and build relationships with our experts.
+          </p>
+        </div>
+      </div>
+      <a href="#" class="btn btn-text">SEE THE WHOLE PROGRAM</a>
+      <button class="btn btn--primary btn-block">Join the course</button>
+    </section>
+
+    <!-- featured-section -->
+    <section class="featured-section"></section>
+
+    <!-- partner-section -->
+    <section class="partner-section">
+      <div class="partner-section__header">
+        <h2 class="partner-section__title">featured Speakers</h2>
+        <div class="red-line"></div>
+      </div>
+      <div class="partner-section__body">
+        <ul class="partner-section__list">
+          <li class="partner-section__list-item">
+            <i class="fab fa-google" aria-hidden="true">oogle</i>
+          </li>
+          <li class="partner-section__list-item">
+            <i class="fab fa-airbnb" aria-hidden="true"> airbnb</i>
+          </li>
+          <li class="partner-section__list-item">
+            <i class="fab fa-microsoft" aria-hidden="true"> Microsoft</i>
+          </li>
+          <li class="partner-section__list-item">
+            <i class="fab fa-apple" aria-hidden="true"> Apple</i>
+          </li>
+          <li class="partner-section__list-item">
+            <i class="fab fa-free-code-camp" aria-hidden="true"></i>
+            freeCodeCamp
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer-section">
+      <div class="footer-log">
+        <svg class="icon">
+          <use xlink:href="./images/sprite.svg#remote-work"></use>
+        </svg>
+        <p>REMOTE EXPERTS</p>
+      </div>
+
+      <p class="reserved-rights">
+        2022 Creative Remote Experts Some Rights Reserved
+      </p>
+    </footer>
+    <script src="main.js"></script>
   </body>
 </html>

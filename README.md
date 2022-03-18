@@ -1,52 +1,67 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# First Capstone Project: Remote Experts Website
 
-# Portfolio Application
-
-> My first portfolio project which is mobile first responsve website
+Description of the project:
+This project represents the mobile version and the Desktop version of the first capstone project from Microverse, Where I used all the skills and knowledge that I acquired form the first module.
 
 ## Built With
 
-- HTML,CSS
-- Figam,Linter,Github
-- Visual Studio code editor
+- HTML
+- CSS
+  - Flexbox
+  - CSS Grid
+- JavaScript
+- Mobile first aproach
+- linter for code analysis
 
-## Live Demo (if available)
+## Screenshot
 
-[Live Demo Link](https://melaku05.github.io/Portfolio-setup-and-mobile-version-skeleton/)
+- Mobile version
+  ![Mobile version](https://user-images.githubusercontent.com/97116942/157699201-fbf3cd82-25ac-4541-96e9-6035768e7dd7.PNG)
+
+- Desktop version
+  ![Desktop version](https://user-images.githubusercontent.com/97116942/157699325-9f44d40f-e533-4fb3-8f14-804b5710b733.PNG)
+
+## Deployment
+
+## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites:
-
-You need have basic Knowledge of how website work, html,css, code editor
-
 ### Setup
 
-### Install
+To get a local copy up and running follow these simple steps.
 
-install git in your local machine
-install code editor such as vs code
-
-### Usage
-
-git clone https://github.com/Melaku05/Portfolio-setup-and-mobile-version-skeleton/tree/desktop_version_deployment
-
-### Run tests
-
-open index.html file in the browser you have in your computer
-
-### Deployment
+To setup the Capstone project, in the repo page:
+click on code (dropdown list) > Download as ZIP;
+or open terminal of path you want to install project and run this command <br>
+`git clone https://github.com/Melaku05/capstone.git`
 
 ## Authors
 
 👤 **Melaku Eshetu**
-
 -GitHub: [@Melaku05](https://github.com/Melaku05)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Melaku05/capstone/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Original design idea by <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a>.
+- Photo by <a href="">Windows</a> at <a href="https://unsplash.com/">Unsplash</a>
+- Free icons fron <a href="https://uxwing.com/">uxwing</a>
+- Free genetated photos from <a href="https://generated.photos/faces">Generated Photo</a>
+- My coding partners
+- Hat tip to anyone whose code was used.
+- Microverse team.
+- My Morning team.
+
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](/MIT.md) licensed.

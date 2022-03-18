@@ -1,0 +1,199 @@
+.about-info {
+  padding: 10rem 3rem;
+  background-image: url(../images/bkgrnd.png);
+  background-size: cover;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-heading {
+  color: var(--color-secondary);
+  margin: 0;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.about-description {
+  background-color: rgb(255, 254, 254);
+  border: 3px solid var(--color-accent);
+  color: var(--color-body-text);
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.contact-message {
+  font-size: 2rem;
+}
+
+.container span a {
+  border-bottom: 2px solid var(--color-body-text);
+  color: var(--color-body-text);
+  font-size: 2rem;
+  font-weight: 600;
+  transition: color 0.4s ease;
+}
+
+.container span a:hover {
+  color: var(--color-secondary);
+}
+
+@media screen and (min-width: 768px) {
+  .about-heading {
+    font-size: 5rem;
+  }
+
+  .about-description {
+    font-size: 1.9rem;
+    width: 60%;
+  }
+
+  .contact-message {
+    font-size: 2.2rem;
+  }
+
+  .container span a {
+    font-size: 2.2rem;
+  }
+}
+
+.logo {
+  align-items: center;
+  border-radius: 4px;
+  border: 2px solid var(--color-accent);
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 4rem;
+}
+
+.logo-heading {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    gap: 5rem;
+  }
+
+  .logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+}
+
+/* clients */
+
+.clients {
+  padding: 10rem 3rem;
+}
+
+.clients-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+.client-img1 {
+  background-image: url(../images/client\ 1.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.client-img2 {
+  background-image: url(../images/client\ 2.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.red-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(247, 77, 18, 0.5);
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .clients-image {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+  }
+
+  .logo-title {
+    font-size: 2.2rem;
+  }
+
+  .previous-clients {
+    font-size: 2.2rem;
+  }
+
+  .client-img1 {
+    width: 30%;
+    min-width: 350px;
+  }
+
+  .client-img2 {
+    width: 30%;
+    min-width: 350px;
+  }
+
+  .red-filter {
+    font-size: 2.5rem;
+  }
+}
+
+/* Partner section */
+
+.reserved-rights {
+  color: var(--color-accent);
+}
+
+.footer-log p {
+  color: var(--color-accent);
+}
+
+.icon {
+  fill: var(--color-heading);
+}
+
+@media screen and (min-width: 768px) {
+  .partner-section {
+    display: none;
+  }
+}
+
+/* Footer */
+
+.footer-section {
+  background-color: var(--color-heading);
+}
