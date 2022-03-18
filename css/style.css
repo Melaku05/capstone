@@ -9,7 +9,7 @@
   --color-secondary: #ec5242;
   --color-accent: #d3d3d3;
   --color-heading: #141414;
-  --color-body-text: #575757;
+  --color-body-text: #dcd7d7;
   --font-familly-cocogoose: 'cocogoose', sans-serif;
 }
 
@@ -386,7 +386,7 @@ a {
 
 .partner-section {
   align-items: center;
-  background-color: #3e3e3e;
+  background-color: #0d0c0c;
   display: flex;
   flex-direction: column;
   justify-content: center;

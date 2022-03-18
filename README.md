@@ -13,6 +13,16 @@ This project represents the mobile version and the Desktop version of the first 
 - Mobile first aproach
 - linter for code analysis
 
+## Live Demo (if available)
+
+## Built With
+
+[Live Demo Link](https://melaku05.github.io/capstone/)
+
+## project description in video
+
+https://www.loom.com/share/bf34b9589dec426b9cf3323cbece8003
+
 ## Screenshot
 
 - Mobile version
