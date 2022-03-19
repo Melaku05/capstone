@@ -1,4 +1,5 @@
-// navigation nav
+/* eslint linebreak-style: ["error", "windows"] */
+// navigation
 const navBar = document.querySelector('.nav');
 const navList = document.querySelector('.nav__list');
 const navToggle = document.querySelector('.nav__toggler');
