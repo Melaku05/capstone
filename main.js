@@ -1,5 +1,3 @@
-
-//nav
 const navBar = document.querySelector('.nav');
 const navList = document.querySelector('.nav__list');
 const navToggle = document.querySelector('.nav__toggler');
@@ -132,5 +130,4 @@ function createFeaturedSection() {
 
 createFeaturedSection();
 
-//let check EsLint
-
+// let check EsLint
