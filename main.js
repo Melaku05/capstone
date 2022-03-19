@@ -127,5 +127,4 @@ function createFeaturedSection() {
   featuredSection.appendChild(featuredSectionHeader);
   featuredSection.appendChild(featuredSectionBoy);
 }
-
 createFeaturedSection();
