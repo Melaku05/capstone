@@ -95,11 +95,11 @@ function createFeaturedSection() {
   const featuredSectionBoy = document.createElement('div');
   featuredSectionHeader.setAttribute(
     'class',
-    'featured-section__header featured-element'
+    'featured-section__header featured-element',
   );
   featuredSectionBoy.setAttribute(
     'class',
-    'featured-section__body featured-element'
+    'featured-section__body featured-element',
   );
   featuredSection.appendChild(featuredSectionHeader);
   featuredSection.appendChild(featuredSectionBoy);
